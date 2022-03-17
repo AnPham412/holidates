@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HoliDates</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -40,7 +40,7 @@
                                     type="text"
                                     placeholder="Language Code"
                             />
-                            <button id="holidays-btn" class="btn">Render Holiday</button>
+                            <button id="holidays-btn" class="btn" onclick="renderHolidays()">Render Holiday</button>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
                     >
                         <h3>Country List</h3>
                         <div>
-                            <button id="countries-list-btn" class="btn top-right-btn">
+                            <button id="countries-list-btn" class="btn top-right-btn" onclick="renderCountries()">
                                 Render Countries List
                             </button>
                         </div>
@@ -161,6 +161,6 @@
     </section>
 </main>
 
-<script src="./script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
